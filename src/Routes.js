@@ -1,11 +1,14 @@
 import React from 'react';
 import {
   createAppContainer,
-  createStackNavigator,
   createSwitchNavigator,
-  createBottomTabNavigator,
   StackActions
 } from 'react-navigation';
+
+import { createStackNavigator } from 'react-navigation-stack';
+
+import { createBottomTabNavigator } from 'react-navigation-tabs';
+
 
 import Splash from './screens/Splash';
 import AuthWelcome from './screens/Auth/AuthWelcome';
