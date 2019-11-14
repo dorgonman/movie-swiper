@@ -1,4 +1,6 @@
-pushd ..
+#!/bin/sh
+set -e
+ushd ..
 
     pushd ..
         cmd="react-native bundle --platform android --dev false  \

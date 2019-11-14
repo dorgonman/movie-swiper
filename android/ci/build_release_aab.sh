@@ -1,3 +1,6 @@
+#!/bin/sh
+set -e
+
 pushd ..
 
     pushd ..
