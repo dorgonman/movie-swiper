@@ -14,7 +14,7 @@ pushd ..
 
     # rm -rf ./app/src/main/res/drawable-*
     # rm -rf ./app/src/main/res/raw
-
-
-    ./gradlew bundleRelease
+    
+    ./gradlew clean :app:assembleRelease :app:bundleRelease
+    #./gradlew bundleRelease
 popd
